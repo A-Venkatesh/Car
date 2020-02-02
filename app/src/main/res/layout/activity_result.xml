@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#98FB98"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/svtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Static Vibration Test"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/svtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sntextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/sntextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/svtext"
+        android:text="Static Noise Test"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sntextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gntext"
+        android:layout_alignLeft="@+id/gntextView"
+        android:layout_alignStart="@+id/gntextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sntext"
+        android:text="Gear Noise Test"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/gntextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gntext"
+        android:layout_alignBottom="@+id/gntext"
+        android:layout_alignLeft="@+id/tvtextView"
+        android:layout_alignStart="@+id/tvtextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gntext"
+        android:text="Drive Vibration Test"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/gntextView"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvtext"
+        android:text="Drive Noise Test"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tntextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tntext"
+        android:layout_alignBottom="@+id/tntext"
+        android:layout_alignLeft="@+id/wtextView"
+        android:layout_alignStart="@+id/wtextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/wtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tntext"
+        android:text="Wheel Aligment Score"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/wtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cntextView"
+        android:layout_alignStart="@+id/cntextView"
+        android:layout_below="@+id/tntextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cvtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wtext"
+        android:text="Comfort Score"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cvtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wtextView"
+        android:layout_alignStart="@+id/wtextView"
+        android:layout_below="@+id/wtextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cvtext"
+        android:text="Cabin Score"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cntextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvtextView"
+        android:layout_alignStart="@+id/tvtextView"
+        android:layout_below="@+id/cvtextView"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show comment"
+
+        android:onClick="reci"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp" />
+</RelativeLayout>

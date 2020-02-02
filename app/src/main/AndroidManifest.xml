@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.venkateshalive.car">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstAct"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_first"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".AcconeAct" />
+        <activity android:name=".NoiseoneAct" />
+        <activity
+            android:name=".summa"
+            android:label="@string/title_activity_summa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AcctwoAct" />
+        <activity android:name=".NoisetwoAct" />
+        <activity android:name=".NoisethreeAct" />
+        <activity android:name=".Magneto" />
+        <activity android:name=".Result" />
+        <activity android:name=".Recom" />
+        <activity android:name=".Testvalues" />
+        <activity android:name=".TestVdetail" />
+        <activity android:name=".Statictest" />
+        <activity android:name=".Geartest" />
+        <activity android:name=".Dynamictest" />
+        <activity android:name=".Wheeltest" />
+        <activity android:name=".Testcomplete"></activity>
+    </application>
+
+</manifest>
